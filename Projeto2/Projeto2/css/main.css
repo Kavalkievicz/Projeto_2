@@ -1,0 +1,171 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+
+.menu-principal {
+    width: 100%;
+    background-color: black;
+    height: 100px;
+}
+
+.container img { 
+    max-width: 200px; 
+    }
+
+main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.header-2 {
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.menu-url {
+    border-bottom: 3px solid #efefef;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 50px;
+}
+
+.menu ul li:hover {
+    border-bottom: 1px solid #DBA246;
+}
+
+.menu ul li a:hover {
+    color: #DBA246;
+}
+
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.busca {
+    text-align: center;
+    width: 30%;
+    float: right;
+}
+
+.busca input {
+    height: 20px;
+    margin-top: 13px;
+    padding: 3px;
+    border: 1px solid #d6d6d6
+}
+
+.coluna {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;  
+}
+
+.slick-list{
+   width: 100%!important;     
+}
+
+.slick-initialized{
+    overflow: hidden;
+}
+
+.slick-dots li{
+    display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.texto-destaque strong {
+    color: #646464;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    color: #818181;
+    font-size: 30px;
+}
+
+.texto-destaque p {
+    color: #9a9a9a;
+    font-size: 20px;
+}
+
+.coluna-3 {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.coluna-4 {
+    width: 100%;
+    position: relative;
+}
+
+.coluna-5 {
+    float: left;
+    width: 33.3%;
+}
+
+.footer h3 {
+    text-align: left;
+}
+
+.footer {
+    background-image: url('../img/footer.png');
+    color: #ffffff;
+}
+
+.email:before, .telefone:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    float: left;
+    background-repeat: no-repeat;
+    padding-left: 5px;
+}
+
+.email:before {
+    background-image: url('../img/email.png');
+}
+
+.telefone:before {
+    background-image: url('../img/telefoneico.png');
+}
+
+/*@media(max-width: 800px){
+    .menu-principal{
+        display: flex;
+        min-width: 100%;
+        width: 100%;
+    }
+}
