@@ -1,0 +1,1 @@
+SELECT * FROM `formulario-joao`.usuarios;
